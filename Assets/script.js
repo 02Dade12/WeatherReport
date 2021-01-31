@@ -1,4 +1,4 @@
-$(document).ready(function () {
+//$(document).ready(function () {
 
     var citArr = [];
 
@@ -47,7 +47,7 @@ $(document).ready(function () {
         })
 
     });
-});
+//});
 
 
 
