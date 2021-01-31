@@ -16,7 +16,7 @@ $(document).ready(function () {
         localStorage.setItem("city", citySearched);
 
         var API_KEY = "b2a7361f2d32eb5699ee502bb4d55d43";
-        var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + citySearched + "&appid=" + API_KEY;
+        var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + citySearched + "&appid=" + API_KEY;
 
         $.ajax({
             url: queryURL,
