@@ -1,6 +1,6 @@
 $(document).ready( function() {
 
-    var citArr = [];
+    var cityArr = [];
 
     //Clears all local storage items and previous searches from the page.
     $(".clear").on("click", function () {
