@@ -6,6 +6,7 @@ $(document).ready(function () {
     $(".clear").on("click", function () {
         localStorage.clear();
         $("#history").remove();
+        $("#searchInput").val("");
     });
 
     $(".searchBtn").on("click", function () {
