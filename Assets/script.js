@@ -44,6 +44,7 @@ $(document).ready( function() {
             }).then(function (uvResponse) {
                 $("#uvIndex").text("UV Index: " + uvResponse[0].value);
             })
+            
         })
 
     });
